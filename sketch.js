@@ -280,7 +280,7 @@ function mouseReleased(){
         gamestate=PLAY;
       }
   } 
-  if(mouseX<SPACE.x+100&&mouseX>SPACE.x-100&&mouseY<SPACE.y+100&&mouseY>SPACE.y-100){
+  if(mouseX<490+100&&mouseX>490-100&&mouseY<420+100&&mouseY>420-100){
     if(mouseButton === LEFT&&mar.y>210){
       mar.velocityY=-15
     }
